@@ -1,0 +1,101 @@
+.header{
+    display: flex;
+    }
+.imgA__header{
+    display: none;
+}
+.imgB__header{
+    display: none;
+}
+.menu__table{
+    display: block;
+    width: 80%;
+}
+.menu_table__six{
+display: flex;
+justify-content: center;
+}
+.menu_table__six a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.menu_table__six li{
+padding: 10px;
+text-align: center;
+}
+
+
+.titulo__reservation{
+    width: 25%;
+    margin-top: 100px;
+    color: #FFFFFF;
+    background: #000000;
+    font-size: 1.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+.info__resercation{
+    width: 30%;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 5px;
+}
+.info__resercation p{
+    color: #FFFFFF;
+    padding: 3px;
+    font-size: 1.6rem;
+}
+.contacto{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vinculos__info p{
+    text-align: center;
+    color: #E90305;
+}
+.titulo2__reservation{
+    width: 25%;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background: #000000;
+    font-size: 1.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+.eventos__img{
+    width: 100%;
+display: grid;
+grid-template-columns: repeat(4, 155px);
+grid-template-rows: repeat(2, 250px);
+margin-top: 20px;
+justify-content: center;
+}
+.eventos__img img{
+    width: 100%;
+    height: 100%;
+}
+.eventos__videos{
+width: 30%;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+
+}
+.eventos__videos video{
+width: 100%;
+
+}

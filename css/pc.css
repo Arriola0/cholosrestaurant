@@ -1,0 +1,96 @@
+.header{
+    display: flex;
+    }
+.imgA__header{
+    display: none;
+}
+.imgB__header{
+    display: none;
+}
+.menu__table{
+    display: block;
+    width: 80%;
+}
+.menu_table__six{
+display: flex;
+justify-content: center;
+}
+.menu_table__six a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.menu_table__six li{
+padding: 20px;
+text-align: center;
+font-size: 1.6rem;
+}
+.inicio__post{
+    width: 100%;
+    
+}
+.inicio-post__B img{
+    width: 100%;
+    height: 750px;
+    padding-top: 90px;
+    padding-top: 50px;
+    background: #000000;
+}
+
+.tituloA__inicio{
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tituloA__inicio h1{
+    font-size: 2rem;
+}
+.imgsA__instal{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 240px);
+    grid-template-rows: repeat(2, 245px);
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+.tituloB__inicio{
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tituloB__inicio h1{
+    font-size: 2rem;
+}
+.section__ofertas{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.section__ofertas img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+}
+.tituloC__inicio{
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tituloC__inicio h1{
+    font-size: 2rem;
+}
+.imgsB__instal{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 240px);
+    grid-template-rows: repeat(2, 245px);
+    margin-top: 20px;
+    padding: 10px;
+    
+}

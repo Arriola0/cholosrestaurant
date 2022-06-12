@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    }
+.imgA__header{
+    display: none;
+}
+.imgB__header{
+    display: none;
+}
+.menu__table{
+    display: block;
+    width: 80%;
+}
+.menu_table__six{
+display: flex;
+justify-content: center;
+}
+.menu_table__six a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.menu_table__six li{
+padding: 20px;
+text-align: center;
+font-size: 1.6rem;
+}
+.titulo__horarios{
+    width: 30%;
+    font-size: 2.5rem;
+}
+.titulo__llegar{
+    width: 50%;
+    font-size: 2.5rem;
+    margin-top: 80px;
+}
+.video__ubicacion{
+   width: 45%; 
+   margin-bottom: 150px;
+}
+.horarios{
+    grid-template-columns: repeat(2, 250px);
+grid-template-rows: repeat(6, 40px);
+}
+.horarios div{
+    font-size: 2.3rem;
+}
+.group{
+    display: flex;
+    justify-content: center;
+}

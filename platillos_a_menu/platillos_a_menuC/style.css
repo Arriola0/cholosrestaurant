@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    background-image: linear-gradient(to bottom, #6f096b, #91005f, #ac004c, #bf0033, #c71111);
+}
+@font-face {
+    font-family: "Fuente  Lato";
+    src: url(Lato.zip);
+}
+.header{
+    width: 100%;
+    background: #000000;
+    box-shadow: rgb(34, 34, 34) 5px 5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+.log__header{
+    padding-bottom: 5px;
+}
+.imgA__header{
+    width: 30px;
+    height: 30px;
+}
+.imgB__header{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+.menu__phone{
+    background: #000000;
+    border-radius: 0px 0px 5px 5px;
+    position: fixed;
+    top: 68px;
+    right: 8%;
+    display: none;
+    z-index: 20;
+}
+.menu_phone__six{
+list-style: none;
+text-align: center;
+}
+.menu_phone__six a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+.menu_phone__six li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.menu__table{
+    display: none;
+}
+.local__float{
+    position: fixed;
+    top: 250px;
+    right: 10px;
+    z-index: 20;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 6px;
+}
+.menuA__platillos{
+width: 100%;
+margin-top: 70px;
+}
+.menuA__platillos-padre img{
+    width: 100%;
+}
+.boton__vermas{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 1.8rem;
+    padding: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+.vinculo{
+    text-decoration: none;
+}

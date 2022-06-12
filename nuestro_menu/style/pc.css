@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    }
+.imgA__header{
+    display: none;
+}
+.imgB__header{
+    display: none;
+}
+.menu__table{
+    display: block;
+    width: 80%;
+}
+.menu_table__six{
+display: flex;
+justify-content: center;
+}
+.menu_table__six a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.menu_table__six li{
+padding: 20px;
+text-align: center;
+font-size: 1.6rem;
+}
+.restaurant__menu{
+    width: 80%;
+    margin-top: 70px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(6, 600px);
+}
+.restaurant__menu img{
+    width: 100%;
+    height: 600px;
+}
+
