@@ -73,7 +73,7 @@ text-align: center;
 .horarios{
 display: grid;
 grid-template-columns: repeat(2, 150px);
-grid-template-rows: repeat(6, 30px);
+grid-template-rows: repeat(6, 70px);
 margin-top: 20px;
 justify-content: center;
 }
