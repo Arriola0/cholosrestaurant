@@ -24,7 +24,9 @@ html{
     top: 0;
 }
 .log__header{
-    padding-bottom: 5px;
+    padding-bottom: 2px;
+    width: 40%;
+    max-width: 130px;
 }
 .imgA__header{
     width: 30px;
@@ -71,8 +73,8 @@ text-align: center;
     top: 250px;
     right: 10px;
     background: #FFFFFF;
-    opacity: 0.5;
-    border-radius: 6px;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 

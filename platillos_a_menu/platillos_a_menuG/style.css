@@ -23,7 +23,9 @@ html{
     z-index: 20;
 }
 .log__header{
-    padding-bottom: 5px;
+    width: 40%;
+    max-width: 130px;
+    padding-bottom: 2px;
 }
 .imgA__header{
     width: 30px;
@@ -67,8 +69,8 @@ text-align: center;
     right: 10px;
     z-index: 20;
     background: #FFFFFF;
-    opacity: 0.5;
-    border-radius: 6px;
+    border-radius: 5px;
+    padding: 3px;
 }
 .menuA__platillos{
 width: 100%;

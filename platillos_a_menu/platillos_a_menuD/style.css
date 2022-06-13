@@ -23,7 +23,9 @@ html{
     z-index: 20;
 }
 .log__header{
-    padding-bottom: 5px;
+    width: 40%;
+    max-width: 130px;
+    padding-bottom: 2px;
 }
 .imgA__header{
     width: 30px;
