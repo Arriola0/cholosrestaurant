@@ -68,9 +68,6 @@ text-align: center;
     top: 250px;
     right: 10px;
     z-index: 20;
-    background: #FFFFFF;
-    border-radius: 5px;
-    padding: 3px;
 }
 .horarios{
 display: grid;

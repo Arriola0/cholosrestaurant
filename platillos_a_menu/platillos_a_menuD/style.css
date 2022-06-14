@@ -67,10 +67,6 @@ text-align: center;
     position: fixed;
     top: 250px;
     right: 10px;
-    z-index: 20;
-    background: #FFFFFF;
-    opacity: 0.5;
-    border-radius: 6px;
 }
 .menuA__platillos{
 width: 100%;
