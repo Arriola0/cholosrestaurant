@@ -17,9 +17,10 @@ justify-content: center;
 }
 .menu_table__six a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000;
     font-size: 1.2rem;
     list-style: none;
+    font-weight: bold;
 }
 .menu_table__six li{
 padding: 20px;
@@ -31,8 +32,6 @@ font-size: 1.6rem;
 .titulo__reservation{
     width: 20%;
     margin-top: 100px;
-    color: #FFFFFF;
-    background: #000000;
     font-size: 1.9rem;
     margin-left: auto;
     margin-right: auto;
@@ -43,7 +42,6 @@ font-size: 1.6rem;
 }
 .info__resercation{
     width: 30%;
-    background: #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -51,7 +49,6 @@ font-size: 1.6rem;
     padding: 5px;
 }
 .info__resercation p{
-    color: #FFFFFF;
     padding: 3px;
     font-size: 1.6rem;
 }
@@ -67,8 +64,6 @@ font-size: 1.6rem;
 .titulo2__reservation{
     width: 20%;
     margin-top: 20px;
-    color: #FFFFFF;
-    background: #000000;
     font-size: 1.9rem;
     margin-left: auto;
     margin-right: auto;

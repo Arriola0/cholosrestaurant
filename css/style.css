@@ -5,7 +5,7 @@
 }
 html{
     font-size: 62.5%;
-    background-image: linear-gradient(to bottom, #6f096b, #91005f, #ac004c, #bf0033, #c71111);
+    background-image: url(../img/principal/fondo.jpg);
 }
 @font-face {
     font-family: "Fuente  Lato";
@@ -13,7 +13,8 @@ html{
 }
 .header{
     width: 100%;
-    background: #000000;
+    height: 70px;
+    background: #fff;
     box-shadow: rgb(34, 34, 34) 5px 5px 10px;
     display: flex;
     justify-content: space-evenly;
@@ -37,7 +38,7 @@ html{
     display: none;
 }
 .menu__phone{
-    background: #000000;
+    background: #fff9;
     border-radius: 0px 0px 5px 5px;
     position: fixed;
     top: 68px;
@@ -50,8 +51,9 @@ text-align: center;
 }
 .menu_phone__six a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 .menu_phone__six li{
     padding-top: 10px;
@@ -66,9 +68,7 @@ text-align: center;
 .inicio-post__B img{
     width: 100%;
     height: 390px;
-    padding: 10px;
     padding-top: 50px;
-    background: #000000;
 }
 .local__float{
     position: fixed;
@@ -83,37 +83,42 @@ text-align: center;
     width: 90%;
     text-align: center;
     font-size: 1.5rem;
-    background: #000000;
-    color: #FFFFFF;
+    color: #005400;
+    background: #fff6;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 6px;
     font-weight: bold;
+    max-width: 400px;
 }
 .parrafo__mision{
     text-align: center;
     font-size: 1.4rem;
-    background: #000000;
-    color: #FFFFFF;
+    background: #fff6;
+    color: #005400;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tituloA__inicio{
     width: 90%;
-    background: #000000;
-    color: #FFFFFF;
+    background: #fff6;
+    color: #005400;
     margin-left: auto;
     margin-right: auto;
     border-radius: 6px;
     margin-top: 20px;
+    max-width: 400px;
 }
 .tituloA__inicio h1{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 10px;
     font-weight: bold;
 }
@@ -130,43 +135,47 @@ height: 100%;
 }
 .tituloB__inicio{
     width: 90%;
-    background: #000000;
-    color: #FFFFFF;
+    background: #fff6;
+    color: #005400;
     margin-left: auto;
     margin-right: auto;
     border-radius: 6px;
     margin-top: 10px;
+    max-width: 400px;
+    text-align: center;
 }
 .tituloB__inicio h1{
-    text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 10px;
     font-weight: bold;
 }
 .section__ofertas{
     display: flex;
-    height: 175px;
+    height: 230px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    background: #000000;
+    background: #fff9;
     margin-top: 10px;
 }
 .section__ofertas img{
+    width: 230px;
+    height: 100%;
 padding: 15px;
 }
 .tituloC__inicio{
     width: 90%;
-    background: #000000;
-    color: #FFFFFF;
+    background: #fff6;
+    color: #005400;
     margin-left: auto;
     margin-right: auto;
     border-radius: 6px;
     margin-top: 10px;
+    max-width: 400px;
 }
 .tituloC__inicio h1{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 10px;
     font-weight: bold;
 }

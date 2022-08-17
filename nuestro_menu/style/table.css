@@ -17,9 +17,10 @@ justify-content: center;
 }
 .menu_table__six a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000;
     font-size: 1.2rem;
     list-style: none;
+    font-weight: bold;
 }
 .menu_table__six li{
 padding: 10px;
@@ -31,11 +32,11 @@ text-align: center;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 350px);
-    grid-template-rows: repeat(6, 500px);
+    grid-template-rows: repeat(5, 700px);
     margin-left: auto;
     margin-right: auto;
 }
 .restaurant__menu img{
     width: 100%;
-    height: 500px;
+    height: 650px;
 }

@@ -5,7 +5,7 @@
 }
 html{
     font-size: 62.5%;
-    background-image: linear-gradient(to bottom, #6f096b, #91005f, #ac004c, #bf0033, #c71111);
+    background-image: url(../img/principal/fondo.jpg);
 }
 @font-face {
     font-family: "Fuente  Lato";
@@ -13,7 +13,8 @@ html{
 }
 .header{
     width: 100%;
-    background: #000000;
+    height: 70px;
+    background: #fff;
     box-shadow: rgb(34, 34, 34) 5px 5px 10px;
     display: flex;
     justify-content: space-evenly;
@@ -37,7 +38,7 @@ html{
     display: none;
 }
 .menu__phone{
-    background: #000000;
+    background: #fff9;
     border-radius: 0px 0px 5px 5px;
     position: fixed;
     top: 68px;
@@ -51,8 +52,9 @@ text-align: center;
 }
 .menu_phone__six a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 .menu_phone__six li{
     padding-top: 10px;
@@ -72,8 +74,8 @@ text-align: center;
 .titulo__reservation{
     width: 60%;
     margin-top: 100px;
-    color: #FFFFFF;
-    background: #000000;
+    color: #005400;
+    background: #fff6;
     font-size: 1.8rem;
     margin-left: auto;
     margin-right: auto;
@@ -84,7 +86,7 @@ text-align: center;
 }
 .info__resercation{
     width: 70%;
-    background: #000000;
+    background: #fff6;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -92,7 +94,7 @@ text-align: center;
     padding: 5px;
 }
 .info__resercation p{
-    color: #FFFFFF;
+    color: #005400;
     padding: 3px;
     font-size: 1.6rem;
 }
@@ -108,8 +110,8 @@ text-align: center;
 .titulo2__reservation{
     width: 60%;
     margin-top: 20px;
-    color: #FFFFFF;
-    background: #000000;
+    color: #005400;
+    background: #fff6;
     font-size: 1.8rem;
     margin-left: auto;
     margin-right: auto;
