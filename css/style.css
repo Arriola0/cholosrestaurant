@@ -39,10 +39,12 @@ html{
 }
 .menu__phone{
     background: #fff9;
+    width: 35%;
     border-radius: 0px 0px 5px 5px;
     position: fixed;
+    right: 5%;
     top: 68px;
-    right: 8%;
+    justify-content: center;
     display: none;
 }
 .menu_phone__six{
@@ -51,7 +53,7 @@ text-align: center;
 }
 .menu_phone__six a{
     text-decoration: none;
-    color: #000;
+    color: #005400;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -195,11 +197,6 @@ height: 100%;
     width: 100%;
     height: 100px;
 }
-
-
-
-
-
 
 
 

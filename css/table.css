@@ -17,7 +17,7 @@ justify-content: center;
 }
 .menu_table__six a{
     text-decoration: none;
-    color: #000;
+    color: #005400;
     font-size: 1.2rem;
     list-style: none;
     font-weight: bold;
@@ -71,7 +71,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     width: 300;
-    height: 275px;
+    height: 230px;
 }
 .tituloC__inicio{
     width: 50%;
