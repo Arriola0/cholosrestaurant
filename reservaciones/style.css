@@ -126,7 +126,7 @@ text-align: center;
     width: 100%;
 display: grid;
 grid-template-columns: repeat(2, 155px);
-grid-template-rows: repeat(3, 250px);
+grid-template-rows: repeat(3, 220px);
 margin-top: 20px;
 justify-content: center;
 }

@@ -74,7 +74,7 @@ text-align: center;
 .eventos__img{
     width: 100%;
 display: grid;
-grid-template-columns: repeat(4, 155px);
+grid-template-columns: repeat(4, 160px);
 grid-template-rows: repeat(2, 250px);
 margin-top: 20px;
 justify-content: center;

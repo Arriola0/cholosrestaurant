@@ -32,10 +32,10 @@ font-size: 1.6rem;
 .titulo__llegar{
     width: 50%;
     font-size: 2.5rem;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .video__ubicacion{
-   width: 45%; 
+   width: 35%; 
    margin-bottom: 150px;
 }
 .horarios{
@@ -48,4 +48,5 @@ grid-template-rows: repeat(6, 40px);
 .group{
     display: flex;
     justify-content: center;
+    margin-left: 5px;
 }

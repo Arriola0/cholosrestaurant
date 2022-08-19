@@ -27,14 +27,20 @@ padding: 10px;
 text-align: center;
 }
 .titulo__llegar{
-
     width: 30%;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .video__ubicacion{
-    width: 45%;
+    width: 30%;
 }
 .group{
     display: flex;
     justify-content: center;
     }
+.mapa{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
