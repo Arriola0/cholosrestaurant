@@ -207,12 +207,57 @@ height: 100%;
 
 
 
+.div_platillos1, .div_platillos2, .div_platillos3, .div_platillos4, .div_platillos5, .div_platillos6, .div_platillos7, .div_platillos8, .div_platillos9, .div_platillos10, .div_platillos11{
+width: 100%;
+height: 100%;
+background: #fff6;
 
-
-
-
-
-
+}
+.transparent_platillos1, .transparent_platillos2, .transparent_platillos3, .transparent_platillos4, .transparent_platillos5, .transparent_platillos6, .transparent_platillos7, .transparent_platillos8, .transparent_platillos9, .transparent_platillos10, .transparent_platillos11{               
+    width: 180px;
+    height: 180px;
+    background: #0006;
+    position: relative;
+    bottom: 210px;
+    left: 25px;
+    border-radius: 5px;
+    border: 0.5px solid #E90305;
+    display: none;
+}
+.letra_platillos{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding-left: 5px;
+}
+.vermas{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 1.5rem;
+    background: #1719;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 70px;   
+}
+.transparent_platillos1 a, .transparent_platillos2 a, .transparent_platillos3 a, .transparent_platillos4 a, .transparent_platillos5 a, .transparent_platillos6 a, .transparent_platillos7 a, .transparent_platillos8 a, .transparent_platillos9 a, .transparent_platillos10 a, .transparent_platillos11 a{
+    text-decoration: none;
+}
+.cerrarPlatillos{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 1.3rem;
+    background: #1719;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}
 
 
 

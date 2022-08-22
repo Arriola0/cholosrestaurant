@@ -58,7 +58,7 @@ font-size: 1.6rem;
 }
 .section__ofertas{
     width: 70%;
-    height: auto;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
@@ -82,3 +82,10 @@ font-size: 1.6rem;
     padding: 10px;
     
 }
+
+.transparent_platillos1, .transparent_platillos2, .transparent_platillos3, .transparent_platillos4, .transparent_platillos5, .transparent_platillos6, .transparent_platillos7, .transparent_platillos8, .transparent_platillos9, .transparent_platillos10, .transparent_platillos11{
+bottom: 225px;
+left: 50px;
+}
+
+
