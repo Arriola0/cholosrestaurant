@@ -161,12 +161,12 @@ height: 100%;
     scroll-snap-type: x proximity;
     background: #fff9;
     margin-top: 10px;
+    
 }
 .section__ofertas img{
     width: 230px;
     height: 100%;
     padding: 15px;
-    cursor: pointer;
 }
 .tituloC__inicio{
     width: 90%;
